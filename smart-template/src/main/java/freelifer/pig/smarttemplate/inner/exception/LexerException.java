@@ -1,0 +1,11 @@
+package freelifer.pig.smarttemplate.inner.exception;
+
+/**
+ * @author kzhu on 2017/7/25.
+ */
+public class LexerException extends RuntimeException {
+
+    public LexerException(String msg) {
+        super(msg);
+    }
+}
